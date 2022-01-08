@@ -1,0 +1,56 @@
+.Sign_up_Page{
+    font-family: sans-serif;
+    margin-left: 500px;
+}
+.Sign_up_Page img{
+    width: 100px;
+    height: 60px;
+    margin-left: 200px;
+    
+}
+.credentials {
+    border: 1px solid black;
+    max-width: 470px;
+    width: 100%;
+    margin-top: 20px;
+}
+.credentials p{
+    margin-left: 10px;
+}
+.credentials h1{
+    font-family: sans-serif;
+}
+.credentials input{
+  width: 400px;
+  margin-left: 20px;
+  height: 25px;
+  border: 1px solid black;
+}
+.credentials input:hover{
+    border: 2px solid #cd9842;
+    box-shadow:2px 1px 2px 1px  #cd9842;
+}
+.credentials button{
+    margin-left: 75px;
+    width: 280px;
+    height: 40px;
+    border-radius: 9px;
+    border: 1px solid white;
+    background-color: #cd9842;
+}
+.credentials a{
+    color:rgb(15, 132, 179);
+}
+.credentials1 button{
+    width: 500px;
+    height: 40px;
+}
+.num {
+    display: flex;
+}
+.num input{
+    width: 90px;
+}
+.credentials h1{
+    font-size: small;
+}

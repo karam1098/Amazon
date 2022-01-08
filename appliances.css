@@ -1,0 +1,391 @@
+.main {
+    background-color: #0F1111;
+    display: flex;
+    height: 70px;
+    font-family: sans-serif;   
+    max-width: 3000px;
+    width: 100%; 
+}
+.logo img{
+    width: 112px;
+    height: 65px;
+    margin-bottom: 35px;
+    margin-left: 20px;
+}
+.logo:hover{
+    border: 1px solid white;
+}
+.map {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 13px;
+}
+.map:hover{
+    border: 1px solid white;
+}
+.map a{
+    display: flow-root;
+    margin-top: 10px;    
+}
+.map i{
+    display: block;
+    flex-direction: row;   
+    margin-left: 20px;
+    margin-top: 5px;
+}
+.all {
+    width: 35px;
+    color: rgb(19, 12, 12);
+    height: 35px;
+    margin-left: 20px;
+    margin-top:13px;
+    text-shadow: whitesmoke;
+   background-color: #ffffff;
+}
+.all p{
+    margin-left:13px;
+    margin-top:8px;
+}
+.search_bar input{
+    width: 530px;
+    height: 36px;
+    margin-top:13px;    
+}
+.search_icon  i{
+    width: 25px;
+    height: 35px;
+    margin-top:8px;
+    margin-left: 10px;
+    color:black;    
+}
+.search_icon{
+    width: 35px;
+    color: rgb(19, 12, 12);
+    height: 35px; 
+    margin-top:13px;
+    text-shadow: whitesmoke;
+   background-color: #cd9842;    
+}
+.w3-dropdown-hover img{
+    width: 30px;
+    height: 20px;
+    background-color: #0F1111;
+}
+.w3-container {
+    background-color: #0F1111;
+    margin-top: 12px;
+    margin-left: 10px;
+}
+.w3-dropdown-content {
+    width: 250px;
+}
+.w3-dropdown-content ul{
+    list-style-type: none;
+    width: 200px;
+}
+.account {
+    display: flex;
+    flex-direction: column;
+    margin-top: 9px;
+    margin-left: 25px;
+
+}
+.account:hover{
+    border: 1px solid white;
+}
+.account span{
+    color: whitesmoke;
+    margin-left: 20px;
+    font-size: 14px;
+}
+.account img{
+    width: 40px;
+    height: 45px;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+.return {
+    margin-left: 25px;
+}
+.return:hover{
+    border: 1px solid white;
+}
+.return span{
+    color: whitesmoke;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+}
+.cart_symbol img{
+    color: antiquewhite;
+    margin-left:50px;
+    width: 40px;
+    height: 30px;
+    margin-top: 25px;
+}
+.cart_symbol:hover{
+    border: 1px solid white;
+}
+.cart p{
+    color: whitesmoke;
+    font-family: 16px;
+    margin-top: 20px;
+    font-size: 11px;
+   margin-left: 5px;
+}
+.cart:hover{
+    border: 1px solid white;
+}
+.nav {
+    margin-top: 0px;
+    background-color: #202424;
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    color: #ffffff;
+    font-family: sans-serif;
+}
+.download img{
+      width: 50px;
+      height: 40px;
+}
+.download:hover{
+    border: 1px solid white;
+}
+.All p{
+    margin-right: 5px;
+    font-style: initial;
+}
+.All:hover{
+    border: 1px solid white;
+}
+.Mobiles p{
+    margin-left: 18px;
+    font-style: initial
+}
+.Mobiles:hover{
+    border: 1px solid white;
+}
+.Bestsellers p{
+   margin-left: 18px;
+   font-style: initial;
+}
+.Bestsellers:hover{
+    border: 1px solid white;
+}
+.Electronics p{
+    margin-left: 18px;
+    font-style: initial;
+}
+.Electronics:hover{
+    border: 1px solid white;
+}
+.Customerservice p{
+    margin-left: 18px;
+    font-style: initial;
+}
+.Customerservice:hover{
+    border: 1px solid white;
+}
+.Fashion p{
+    margin-left: 18px;
+    font-style: initial;
+}
+.Fashion:hover{
+    border: 1px solid white;
+}
+.Prime {
+    display: flex;
+}
+.Prime:hover{
+    border: 1px solid white;
+}
+.Prime p{
+    margin-left: 18px;
+    font-style: initial;
+    color: #ffffff;
+}
+.Prime img{
+    width: 50px;
+    height: 50px;
+    margin-left: 18px;
+}
+.img img{
+    width: 400px;
+    height: 50px;
+    margin-left: 220px;
+}
+.img:hover{
+    border: 1px solid white;
+}
+.add {
+    width: 1333px;
+}
+.add:hover{
+    border: 1px solid white;
+}
+
+
+
+.appliances {
+    flex-direction: column;
+    /* max-width: 3000px; */
+    background-color:#ffffff ;
+}
+.appliances1 {
+    display: flex ;
+    flex-direction: row;
+    /* max-width: 3000px; */
+    display: flex;
+    background-color:#ffffff ;
+    align-items: center;
+}
+.appliances1 img{
+    width: 250px;
+    height: 180px;
+    margin-bottom: 25px;
+    
+    display: flex;
+}
+.appliances2 {
+    display: flex ;
+    flex-direction: row;
+    /* max-width: 3000px; */
+    display: flex;
+    background-color:#ffffff ;
+}
+.appliances2 img{
+    width: 250px;
+    height: 180px;
+    margin-bottom: 25px;
+    
+    display: flex;
+}
+.product {
+    width: 300px;
+    margin-left: 50px;
+}
+.product img{
+    width: 250px;
+    height: 200px;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+.product span{
+    width: 250px;
+    height: 200px;
+   
+    font-family: sans-serif;
+}
+.product i{
+    color:#cd9842;
+    font-size: 18px;
+   
+}
+
+
+.backtotop {
+    background-color: #232F3E;
+    width: 100%;
+    height: 80px;
+}
+.backtotop p{
+    color: aliceblue;
+    font-family: sans-serif;
+    text-align: center;
+} 
+.footer {
+    background-color: #232F3E;
+    display: flex;
+    font-family: sans-serif;
+    height: 260px;
+   
+}
+.footer ul{
+    color: #ffffff;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+.footer li{
+    list-style-type: none;
+    font-size: 12px;
+}
+.footer2 {
+    background-color: #232F3E ;
+    font-family: sans-serif;
+    height: 160px;
+    width: 100%;
+}
+.footer2 img{
+    width: 100px;
+    margin-left:500px ;
+    margin-bottom: 10px;
+}
+.footer2 span{
+    font-family: sans-serif;
+    color: #ffffff;
+    margin-left:50px;
+    margin-top: 40px;
+}
+.footer2-1 {
+    margin-left: 380px;
+    color: #ffffff;
+    display: flex;
+    margin-top: 10px;
+}
+.footer3 {
+    display: flex;
+    background-color: #131b24;
+    height: 80px;
+    width: 100%;
+    font-size: 10px;
+    font-family: sans-serif;
+}
+.footer3 ul{
+    color: floralwhite;
+    margin-left: 90px;
+    margin-top: 40px;
+}
+.footer3 li{
+    list-style-type: none;
+}
+.footer3-1 {
+    margin-left: 120px;
+    display: flex;
+}
+.footer4 {
+    display: flex;
+    background-color: #131b24;
+    height: 130px;
+    width: 100%;
+    font-size: 10px;
+    font-family: sans-serif;
+}
+.footer4 ul{
+    color: floralwhite;
+    margin-left: 100px;
+    margin-top: 40px;
+}
+.footer4 li{
+    list-style-type: none;
+}
+.footer4-1 {
+    margin-left: 150px;
+    display: flex;
+}
+.footer5 {
+    display: flex;
+    background-color: #131b24;
+    height: 60px;
+    width: 100%;
+    font-size: 9px;
+    font-family: sans-serif;
+    justify-content: space-around;
+}
+.footer5 span{
+    color: floralwhite;    
+}
